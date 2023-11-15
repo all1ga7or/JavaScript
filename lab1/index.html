@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab1.css">
+    <script src="lab1.js"></script>
+    <title>Lab1</title>
+</head>
+<body>
+    
+    <h1>Проєктування та розробка веб-застосунків</h1>
+    <h2>Лабораторна робота №1. JavaScript</h2>
+    <h2>Виконав студент групи КН-31, Крищук І.І.</h2>
+    <h2>Варіант №5</h2>
+    <ul class="horizontal-menu">
+        <li><a href="lab1.html">ЛР№1</a></li>
+        <li><a href="../lab2/lab2.html">ЛР№2</a></li>
+        <li><a href="../lab3/lab3.html">ЛР№3</a></li>
+        <li><a href="../lab4/lab4.html">ЛР№4</a></li>
+        <li><a href="../lab5/lab5.html">ЛР№5</a></li>
+    </ul>
+
+    <div class="task">
+        <h2>Завдання</h2>
+        <ul>Створити масиви значень:
+            <li>тематика виставки;</li>
+            <li>місце проведення;</li>
+            <li>організатор виставки (допускається пусте значення).</li>
+        </ul>
+        <p> виставка працює протягом тижня. Вивести інформацію, скільки
+        днів залишилося до кожної з них, яка(і) виставка(и) проводиться сьогодні,
+        скільки днів залишилось до її(їх) закриття. Якщо не вказаний організатор
+        виставки, вивести додаткове повідомлення.</p>
+    </div>
+    <div class="work">
+        <button  type="open-button" id="displayInfoButton" onclick="displayInfo()">Вивести інформацію про виставки</button>
+        <div id="exhibitions-info">
+        </div>
+    </div>
+</body>
+</html>

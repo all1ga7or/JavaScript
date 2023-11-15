@@ -1,0 +1,35 @@
+@import url(../main.css);
+.work{
+    display: flex;
+    flex-direction: column;
+}
+#displayInfoButton {
+    color: #333; 
+    font-weight: bold;
+    padding: 10px 10px; 
+    border: 1px solid #333; 
+    border-radius: 5px; 
+    background-color: #fff;
+    margin: 20px auto;
+}
+#displayInfoButton:hover {
+    background-color: #333; 
+    color: #fff; 
+    cursor: pointer;
+}
+#exhibitions-info table{
+    width: 100%;
+    text-align: center;
+}
+#exhibitions-info table tr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border: 1px solid #ccc; 
+    margin: 5px;
+}
+@media (max-width: 400px){
+    #exhibitions-info table tr{
+        grid-template-columns: 1fr;
+    }
+}

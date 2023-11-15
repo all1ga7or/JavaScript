@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab3.css">
+    <script src="lab3.js"></script>
+    <title>Lab3</title>
+</head>
+<body>
+    
+    <h1>Проєктування та розробка веб-застосунків</h1>
+    <h2>Лабораторна робота №2. JavaScript</h2>
+    <h2>Виконав студент групи КН-31, Крищук І.І.</h2>
+    <h2>Варіант №5</h2>
+    <ul class="horizontal-menu">
+        <li><a href="../lab1/lab1.html">ЛР№1</a></li>
+        <li><a href="../lab2/lab2.html">ЛР№2</a></li>
+        <li><a href="lab3.html">ЛР№3</a></li>
+        <li><a href="../lab4/lab4.html">ЛР№4</a></li>
+        <li><a href="../lab5/lab5.html">ЛР№5</a></li>
+    </ul>
+
+    <div class="task">
+        <h2>Завдання 1</h2>
+        <p>На Вашій сторінці є поле вводу, у яке через кому вводяться назви країн.
+            При натисканні на кнопку зробіть так, щоб ці країни записалися в список ul під
+            поле (кожна країна – окремий li).
+        </p>
+        <h2>Завдання 2</h2>
+        <p>Дана таблиця. При натисканні на комірку в ній з'являється поле введення
+            з вмістом цієї комірки і кнопка "зберегти". Можна редагувати текст в полі,
+            зберегти - і текст комірки зміниться на той, що був в полі введення.
+        </p>
+    </div>
+    <div class="list">
+        <label for="textInput" id="inputLabel">Введіть країни через кому:</label>
+        <textarea id="textInput" placeholder="Наприклад: Україна, Польща, Німеччина"></textarea>
+        <button id="confirmButton" onclick="makeList()">Підтвердити</button>
+        <ul id="countryList"></ul>
+    </div>
+    <div class="table">
+        <table id="editableTable">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <th>Column 4</th>
+                <th>Column 5</th>
+            </tr>
+            <tr>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+            </tr>
+            <tr>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+            </tr>
+            <tr>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+            </tr>
+            <tr>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+            </tr>
+            <tr>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+                <td onclick="editCell(this)">0</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
